@@ -34,9 +34,9 @@
                 <fieldset>
                     info
                     <fieldset>
-                        <input type="text" placeholder="Insira o seu nome" name="nome"> 
-                        <input type="text" placeholder="Insira o seu apelido" name="apelido">
-                        <input type="email" placeholder="Insira o seu email" name="email">
+                        <input type="text" placeholder="Insira o seu nome" name="nome" maxlength="25"> 
+                        <input type="text" placeholder="Insira o seu apelido" name="apelido" maxlength="25">
+                        <input type="email" placeholder="Insira o seu email" name="email" maxlength="35">
                         <input type="submit"> 
                     </fieldset>
                 </fieldset>
@@ -76,6 +76,18 @@
                                 Selecione a imagem que corresponde uma porção da cidade paris
                                 <p><input type="image" src="images/parisplace.jpg" alt="submit" width="320" height="320"></p>
                                 <input type="image" src="images/mosteiro.jpg" alt="submit" width="320" height="320">
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <label for="onecolor">Selecione uma das cores da bandeira do País</label>
+                                <input type="color" id="onecolor" name="onecolor" value="#ff0000">
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <label for="population">Adivinhe a população de Paris numa estimativa (Entre 1000000 e 2500000)</label>
+                                <input type="number" id="population" name="population" min="1000000" max="2500000">
                             </p>
                         </li>
                     </ol>
