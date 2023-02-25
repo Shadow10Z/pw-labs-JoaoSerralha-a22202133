@@ -25,7 +25,69 @@
             </p>
             <main>
                 <h3>Quizz</h3>
+                <p>Nesta secção poderá realizar um pequeno Quizz para realmente saber os conhecimentos de Paris!</p>
             </main>
+            <form method="POST" action="mailto: seuemail@gmail.com" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Quizz sobre Paris</legend>
+                </fieldset>
+                <fieldset>
+                    info
+                    <fieldset>
+                        <input type="text" placeholder="Insira o seu nome" name="nome"> 
+                        <input type="text" placeholder="Insira o seu apelido" name="apelido">
+                        <input type="email" placeholder="Insira o seu email" name="email">
+                        <input type="submit"> 
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    Perguntas
+                    <ol>
+                        <li>
+                            <p>
+                                <input type="text" placeholder="Indique o nome do País" name="País" maxlength="25" size="25" autocomplete="off">
+                            </p>
+                        </li>
+                        <li>Selecione o sítio famoso de Paris
+                            <p>
+                                <input type="radio" name="place1" value="local1" id="local1" required>
+                                <label for="local1">Museu de Luvre</label>
+                                <input type="radio" name="place2" value="local2" id="local2" required>
+                                <label for="local2">Mosteiro dos Jerónimos</label>
+                                <input type="radio" name="place3" value="local3" id="local3" required>
+                                <label for="local3">Coliseu de Roma</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A língua que é falada em Paris é francês?
+                                <input type="checkbox" name="lannguage" value="speak" id="speak">
+                                <label for="speak">Selecione caso sim</label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Insira a data a que se deu a Revolução Francesa
+                                <input type="date" autocomplete="off">
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Selecione a imagem que corresponde uma porção da cidade paris
+                                <p><input type="image" src="images/parisplace.jpg" alt="submit" width="320" height="320"></p>
+                                <input type="image" src="images/mosteiro.jpg" alt="submit" width="320" height="320">
+                            </p>
+                        </li>
+                    </ol>
+                    <p>
+                        <label for="comentario">Insira um comentário</label>
+                    </p>
+                    <textarea id="comentario" name="comentario" rows="4" cols="50">Insira um comentário para ficarmos a saber a sua opinião!</textarea>
+                    <p>
+                        <input type="submit" value="Submeter Formulário">
+                    </p>
+                </fieldset>
+            </form>
             <footer>João Serralha - a22202133, Universidade Lusófona, 2ºAno</footer>
         </body>
 
