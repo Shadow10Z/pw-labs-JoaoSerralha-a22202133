@@ -1,0 +1,27 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#ColorFieldset{
+    background-color: rgb(0, 255, 115);
+}
+
+body{
+    background-color:rgb(64, 230, 241);
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: rgb(125, 18, 226);
+}
+
+a:hover{
+    color: darkmagenta;
+}
+
+a:active{
+    color: teal;
+}
